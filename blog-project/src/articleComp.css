@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    margin-left: 6rem;
+    margin-top: 5rem;
+}
+
+.description_div {
+    margin-left: 2rem;
+}
+
+.other {
+    margin-top: 4rem;
+}
+
+.article_description {
+    margin-top: 5rem;
+}
