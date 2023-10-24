@@ -11,8 +11,7 @@ function Home() {
         <ArticleComp heading = "Article 3"/>
         <ArticleComp heading = "Article 4"/>
         <ArticleComp heading = "Article 5"/>
-        <ArticleComp heading = "Article 6"/>
-        <ArticleComp heading = "Article 6"/>
+
         <Footer/>
       </div>
       
