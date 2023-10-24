@@ -4,7 +4,7 @@ function Calvin() {
     return (
         <div>
         <Navbar />
-        <div>hello</div>
+        <div>Calvin's Page</div>
       </div>
     )
     }

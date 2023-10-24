@@ -6,8 +6,8 @@ function Home() {
     return (
       <div>
         <Navbar />
-        <ArticleComp heading = "Article 1" description = "hi"/>
-        <ArticleComp heading = "Article 2" description = "my name "/>
+        <ArticleComp heading = "Article 1" description = "Calvin" href = './calvin'/>
+        <ArticleComp heading = "Article 2" description = "Riley" href = './riley'/>
         <ArticleComp heading = "Article 3"/>
         <ArticleComp heading = "Article 4"/>
         <ArticleComp heading = "Article 5"/>

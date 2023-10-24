@@ -1,6 +1,6 @@
 import React from 'react';
 import './articleComp.css';
-    function createArticle({heading, description}){
+    function createArticle({heading, description, href}){
         return (
         <div className = "container">
             <img class = "image" src="public/template1.jpg" />
@@ -10,7 +10,7 @@ import './articleComp.css';
                 </div> 
                 <div class= 'other'>
                     <div class = "title">
-                    <a href={'/riley'}>
+                    <a href={href}>
                     <h1>{heading}</h1>
                     </a>
                     <div class = "article_description"> 
