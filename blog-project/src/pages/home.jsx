@@ -11,7 +11,10 @@ function Home() {
         <ArticleComp heading = "Article 3"/>
         <ArticleComp heading = "Article 4"/>
         <ArticleComp heading = "Article 5"/>
-
+        <br />
+        <br />
+        <br />
+        <br />
         <Footer/>
       </div>
       
