@@ -5,35 +5,27 @@
     padding:0;
     background-color: white;
   }
-
-  body{
-    margin: 0;
-    padding: 0; 
-    border: 0; 
-    display: none; 
-  }
   
   .nav{
     top: 0;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30vw;
-    }
+  }
   
-  .site-title{
-    font-size: 1rem;
-    margin-left: 47vw;
+  .site-title {
     font-size: 50px;
     color: black;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
   }
   
   .nav ul {
     padding: 0;
     list-style: none;
     display: flex;
+    padding-right: 3%;
+    justify-content: right;
     gap: 2rem;
     font-size: 20px;
   }
@@ -42,8 +34,6 @@
     color: inherit;
     text-decoration: none;
     height: 100%;
-    display: flex;
-    align-items: right;
     padding: .25rem;
   }
 
