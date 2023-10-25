@@ -1,3 +1,11 @@
+* {
+    font-family: Poppins;
+  }
+
+p{
+    font-size: 20px;
+    padding-top: 20px;
+}
 .about-page {
     display: flex;
     flex-direction: column;
@@ -5,17 +13,20 @@
 }
 
 .row {
-    margin-top: 20px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .box {
     flex: 1;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .about-pic {
-    margin-top: 20px;
-    max-width: 60%; /* Ensure that each image is the same size */
+    margin-top: 50px;
+    max-width: 100%; /* Ensure that each image is the same size */
     height: auto;
 }
