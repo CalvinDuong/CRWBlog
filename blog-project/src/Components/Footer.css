@@ -1,17 +1,19 @@
+/* CSS for your footer component */
 .footer {
-    background-color: #000000;
-    color: #ffffff;
-    padding: 20px;
-    position: sticky;
-    display: flex;
-    justify-content: center;
-  }
-  .contained {
-    background-color: #000000;
-  }
+  color: #fff; /* Change this to your desired text color */
+  background-color: #2481fa; /* Change this to your desired background color */
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* CSS for the main content */
+.main-content {
+  /* Add padding or margin to create space at the bottom */
+  margin-bottom: 60px; /* Adjust the value to match the height of your footer */
+}
   .footer p {
     margin: 0;
     font-size: 20px;
     color: rgb(255, 255, 255);
-    background-color: #000000;
   }

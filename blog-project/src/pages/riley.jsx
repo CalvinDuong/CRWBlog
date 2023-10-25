@@ -18,7 +18,6 @@ function Riley() {
   return (
     <div>
       <BlogPage blogPageData={riley_data} />
-      <Footer />
     </div>
   )
 }

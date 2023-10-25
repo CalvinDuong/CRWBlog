@@ -5,6 +5,8 @@ import About from './pages/About.jsx';
 import Calvin from './pages/calvin.jsx';
 import Riley from './pages/riley.jsx';
 import Will from './pages/will.jsx';
+import Navbar from './Navbar';
+import Footer from './Components/Footer';
 
 import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom';
 
@@ -15,35 +17,37 @@ const router = createBrowserRouter([
   {
     //keep this blank to default to home page
     path: '',
-    element: <Home />,
+    element: <Home />
   },
   {
     path: '/riley',
-    element: <Riley/>,
+    element: <Riley />
   },
   {
     path: '/calvin',
-    element: <Calvin/>,
+    element: <Calvin />
   },
   {
     path: '/will',
-    element: <Will/>,
+    element: <Will />
   },
   {
     path: '/about',
-    element: <About/>,
+    element: <About />
   },
   {
     path: '/home',
-    element: <Home/>,
+    element: <Home />
   }
 ]);
 
 function App() {
   return (
-    <>
+    <div class='wrapper'>
+      <Navbar />
       <RouterProvider router={router} />
-    </>
+      <Footer />
+    </div>
   );
 }
 export default App;

@@ -18,9 +18,7 @@ const will_data = {
 function Will() {
   return (
     <div>
-      <Navbar />
       <BlogPage blogPageData={will_data} />
-      <Footer />
     </div>
   )
 }

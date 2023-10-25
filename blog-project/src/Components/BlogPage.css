@@ -20,7 +20,7 @@
     color: #2481fa;
 }
 
-.body {
+.blog-page {
     display: flex;
     padding: 0 25%;
     /* 20% space on both sides */
@@ -30,7 +30,6 @@
     /* Elements inside will stack vertically at the top */
     flex-direction: column;
     /* Elements will stack vertically */
-    height: 100vh;
     /* 100% of the viewport height for vertical centering */
 }
 
