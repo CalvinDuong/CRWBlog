@@ -20,7 +20,7 @@
     color: #2481fa;
 }
 
-.title-section {
+.body {
     display: flex;
     padding: 0 25%;
     /* 20% space on both sides */
@@ -36,4 +36,18 @@
 
 .blog-page-image {
     width: 100%;
+    margin-bottom: 10px;
+}
+
+.date-section {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.blog-content-section p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px
 }
