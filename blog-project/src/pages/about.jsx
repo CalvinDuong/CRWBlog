@@ -18,7 +18,7 @@ function About() {
         </div>
         <div className="William">
         <img class = "images" src="public/template1.jpg" />
-        <p>Hi I'm Calvin, some music I am listening to</p>
+        <p>Hey there! I'm Will, and I love fast music! Some genres I love include KPOP, EDM, Pop, and Classical.</p>
         </div>
       </div>
       <br />

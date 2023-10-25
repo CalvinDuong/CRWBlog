@@ -4,7 +4,7 @@ import './App.css';
       return (
         <div className="nav">
         <div className="nav-title-container">
-          <a href= "/home" className="site-title"> CRW </a>
+          <a href= "/" className="site-title"> CRW </a>
         </div>
         <ul>
             <a href= "/about"> <li>About </li></a>
