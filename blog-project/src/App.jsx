@@ -1,22 +1,15 @@
 import React from 'react';
 import './App.css';
-import Riley from './pages/Riley.jsx';
-import Calvin from './pages/Calvin.jsx';
 import Home from './pages/home.jsx';
 import About from './pages/About.jsx';
-import BlogPage from './pages/BlogPage';
+import Calvin from './pages/calvin.jsx';
+import Riley from './pages/riley.jsx';
+import Will from './pages/will.jsx';
+
 import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom';
 
 // {category, title, subtitle, image, caption, date, content}
 
-const will_data = {
-  category: 'PRODUCT MANAGER',
-  title: 'William Nguyen Loves Everything Nintendo',
-  subtitle: 'Life is all about having fun and making memories with the people who matter.',
-  image: '/public/william_blog_pic.JPG',
-  date: 'October 24, 2023',
-  content: 'hello world'
-}
 
 const router = createBrowserRouter([
   {
@@ -26,19 +19,23 @@ const router = createBrowserRouter([
   },
   {
     path: '/riley',
-    element: <BlogPage blogPageData={will_data}/>,
+    element: <Riley/>,
   },
   {
     path: '/calvin',
-    element: <BlogPage blogPageData={will_data}/>,
+    element: <Calvin/>,
   },
   {
-    path: '/william',
-    element: <BlogPage blogPageData={will_data}/>,
+    path: '/will',
+    element: <Will/>,
   },
   {
-    path: '/ab',
+    path: '/about',
     element: <About/>,
+  },
+  {
+    path: '/home',
+    element: <Home/>,
   }
 ]);
 
@@ -49,5 +46,4 @@ function App() {
     </>
   );
 }
-
 export default App;

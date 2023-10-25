@@ -1,16 +1,16 @@
 import React from 'react'; 
 import Navbar from '../Navbar';
-import Footer from '../footer';
-import './riley.css'
+import Footer from '../Components/Footer';
+import '../About.css'
 function About() {
   return (
     <div>
       <Navbar />
-      <h1>About Us</h1>
+      <h1 class = "Title ">About Us</h1>
       <div className="bio">
         <div className="riley">
-        <img className = "image" src="public/rileypic.jpg" />
-        <p> Hi I'm Riley, some music I am listening to aksjdfh;ajdf;asdnf;alskdnf;laksdf;alsdf;laskdfjaldsk </p>
+          <img className = "image" src="public/rileypic.jpg" />
+          <p> Hi I'm Riley, some music I am listening to aksjdfh;ajdf;asdnf;alskdnf;laksdf;alsdf;laskdfjaldsk </p>
         </div>
         <div className="calvin">
         <img className = "imgg" src="public/calvin.png" />
@@ -24,14 +24,7 @@ function About() {
       <br />
       <br />
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+
       <br />
       <Footer/>
      

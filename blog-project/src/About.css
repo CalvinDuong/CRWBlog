@@ -1,4 +1,5 @@
-/* h1 {
+
+.Title {
     font-size: 40px;
     padding: 30px;
     padding-top: 40px;
@@ -24,7 +25,8 @@ h3 {
 
 .bio {
     display: flex;
-    align-items: center;
+    box-sizing: border-box;
+    align-items: flex-start;
     justify-content: space-evenly;
 }
 
@@ -37,4 +39,4 @@ p {
    max-width: 200px;
    display: flex;
 
-} */
+}

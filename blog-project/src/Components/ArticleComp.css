@@ -1,0 +1,30 @@
+*{
+    color: black; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+h2{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.container {
+    display: flex;
+    margin-left: 4rem;
+    margin-top: 5rem;
+}
+
+.date{
+    padding: 0px;
+    color: #2481fa;
+
+}
+.description_div{
+    margin-left:  3vw;
+}
