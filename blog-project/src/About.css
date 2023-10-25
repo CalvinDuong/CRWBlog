@@ -1,36 +1,21 @@
-
-.Title {
-    font-size: 40px;
-    padding: 30px;
-    padding-top: 40px;
-    padding-left: 70px;
-
-}
-
-.image {
-    width: 21vw;
-    padding: 30px;
-}
-
-h3 {
-    width: 30vw;
-    padding: 30px;
-    
-}
-
-.imgg {
-    width: 22.3vw;
-    padding: 30px;
-}
-
-.bio {
+.about-page {
     display: flex;
-    box-sizing: border-box;
-    align-items: flex-start;
-    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
 }
 
-.images {
-    width: 22.2vw;
-    padding: 30px;
+.row {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 1;
+}
+
+.about-pic {
+    margin-top: 20px;
+    max-width: 60%; /* Ensure that each image is the same size */
+    height: auto;
 }
