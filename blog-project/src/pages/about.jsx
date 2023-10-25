@@ -7,12 +7,34 @@ function About() {
     <div>
       <Navbar />
       <h1>About Us</h1>
-      <img class = "image" src="public/template1.jpg" />
-      <h3>Hello! Welcome to our music blog. This website was created by Calvin Duong, Riley Horita, and idk. We are passionate about all things music and web development</h3>
+      <div className="bio">
+        <div className="riley">
+        <img className = "image" src="public/rileypic.jpg" />
+        <p> Hi I'm Riley, some music I am listening to aksjdfh;ajdf;asdnf;alskdnf;laksdf;alsdf;laskdfjaldsk </p>
+        </div>
+        <div className="calvin">
+        <img className = "imgg" src="public/calvin.png" />
+        <p> Hi I'm Calvin, some music I am listening to </p>
+        </div>
+        <div className="William">
+        <img class = "images" src="public/template1.jpg" />
+        <p>Hi I'm Calvin, some music I am listening to</p>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <br />
       <br />
       <br />
       <Footer/>
+     
     </div>
     
   );

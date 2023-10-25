@@ -3,7 +3,7 @@ import './articleComp.css';
     function createArticle({heading, description, href}){
         return (
         <div className = "container">
-            <img class = "image" src="public/template1.jpg" />
+            <img class = "imagesss" src="public/template1.jpg" />
             <div class= "description_div">
                 <div class = "date"> 
                     <h3> Jan 1 2023 </h3>
